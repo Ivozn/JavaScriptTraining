@@ -1,0 +1,33 @@
+{
+    "name": "javascript-training",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "start": "node dist/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ivozn/JavaScriptTraining.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Ivozn/JavaScriptTraining/issues"
+    },
+    "homepage": "https://github.com/Ivozn/JavaScriptTraining#readme",
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2"
+    }
+}
